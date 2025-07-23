@@ -73,14 +73,14 @@ export default function AboutPage() {
                 width: '100%'
               }}
             >
-              <h1 className="text-5xl lg:text-6xl font-bold text-white leading-tight" style={{ marginBottom: '2rem' }}>
+              <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight" style={{ marginBottom: '2rem' }}>
                 <span className="heading-gradient">{t('about.title')}</span>
               </h1>
               <div className="bg-gradient-to-r from-green-500 to-green-400" style={{ width: '6rem', height: '0.25rem', marginBottom: '2rem' }} />
-              <p className="text-xl text-gray-300 leading-relaxed" style={{ marginBottom: '2rem', maxWidth: '48rem' }}>
+              <p className="text-lg sm:text-xl text-gray-300 leading-relaxed" style={{ marginBottom: '2rem', maxWidth: '48rem' }}>
                 {t('about.description')}
               </p>
-              <p className="text-lg text-gray-400 leading-relaxed" style={{ maxWidth: '48rem' }}>
+              <p className="text-base sm:text-lg text-gray-400 leading-relaxed" style={{ maxWidth: '48rem' }}>
                 {t('about.founded')}
               </p>
             </motion.div>
@@ -92,7 +92,7 @@ export default function AboutPage() {
       <section className="section-padding-large bg-gray-900">
         <div className="container mx-auto px-6">
           <div className="flex flex-col items-center text-center max-w-6xl mx-auto">
-            <div className="grid lg:grid-cols-2 gap-16 items-center w-full">
+            <div className="grid lg:grid-cols-2 gap-8 lg:gap-16 items-center w-full">
               
               {/* Content */}
               <motion.div
@@ -103,11 +103,11 @@ export default function AboutPage() {
               
                 className="space-y-8 flex flex-col items-center text-center lg:items-start lg:text-left"
               >
-              <h2 style={{ marginBottom: '1rem' }} className="text-3xl lg:text-4xl font-bold text-white mb-6">
+              <h2 style={{ marginBottom: '1rem' }} className="text-2xl sm:text-3xl lg:text-4xl font-bold text-white mb-6">
                 {t('about.story.title')}
               </h2>
               
-              <p className="text-lg text-gray-300 leading-relaxed">
+              <p className="text-base sm:text-lg text-gray-300 leading-relaxed">
                 {t('about.story.description')}
               </p>
               
@@ -122,9 +122,9 @@ export default function AboutPage() {
                     style={{ 
                       display: 'flex', 
                       alignItems: 'center', 
-                      gap: '16px', 
-                      padding: '16px',
-                      marginBottom: '16px',
+                      gap: '12px', 
+                      padding: '12px sm:16px',
+                      marginBottom: '12px sm:16px',
                       background: 'rgba(0, 0, 0, 0.5)',
                       borderRadius: '0.5rem',
                       border: '1px solid rgba(76, 175, 80, 0.3)'
@@ -138,17 +138,17 @@ export default function AboutPage() {
                         display: 'flex', 
                         alignItems: 'center', 
                         justifyContent: 'center',
-                        width: '40px',
-                        height: '40px',
+                        width: '36px',
+                        height: '36px',
                         flexShrink: 0,
-                        minWidth: '40px',
-                        minHeight: '40px',
+                        minWidth: '36px',
+                        minHeight: '36px',
               
                       }}
                     >
                       {highlight.icon}
                     </div>
-                    <span className="text-gray-300 font-medium">{highlight.text}</span>
+                    <span className="text-sm sm:text-base text-gray-300 font-medium">{highlight.text}</span>
                   </motion.div>
                 ))}
               </div>
@@ -169,19 +169,19 @@ export default function AboutPage() {
               whileInView={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.8 }}
               viewport={{ once: true }}
-              className="relative flex justify-center"
+              className="relative flex justify-center mt-8 lg:mt-0"
             >
-              <div className="relative max-w-2xl mx-auto">
-                <div className="tech-card p-12 text-center">
-                  <div className="mx-auto mb-6 overflow-hidden border-4 border-green-500/50 rounded-2xl tech-glow-subtle" style={{ width: '450px', height: '600px' }}>
+              <div className="relative w-full max-w-sm mx-auto lg:max-w-md">
+                <div className="tech-card p-6 sm:p-8 lg:p-12 text-center">
+                  <div className="mx-auto mb-6 overflow-hidden border-4 border-green-500/50 rounded-2xl tech-glow-subtle w-full max-w-[280px] sm:max-w-[350px] lg:max-w-[450px] aspect-[3/4]">
                     <img 
                       src="/sara.jpeg" 
                       alt="Sarantis Adamantidis - Founder & Lead Technician"
                       className="w-full h-full object-cover"
                     />
                   </div>
-                  <h3 className="text-2xl font-bold text-white mb-2">{t('about.founder.name')}</h3>
-                  <p className="text-green-400 font-medium mb-4">{t('about.founder.title')}</p>
+                  <h3 className="text-xl sm:text-2xl font-bold text-white mb-2">{t('about.founder.name')}</h3>
+                  <p className="text-green-400 font-medium mb-4 text-sm sm:text-base">{t('about.founder.title')}</p>
                   <div className="flex justify-center space-x-2">
                     <div className="w-2 h-2 bg-green-400 rounded-full"></div>
                     <div className="w-2 h-2 bg-green-500 rounded-full"></div>
@@ -189,8 +189,8 @@ export default function AboutPage() {
                   </div>
                 </div>
                 {/* Decorative elements */}
-                <div className="absolute -top-6 -right-6 w-12 h-12 bg-gradient-to-br from-green-500 to-green-400 rounded-full tech-glow-subtle opacity-60" />
-                <div className="absolute -bottom-6 -left-6 w-8 h-8 bg-gradient-to-br from-green-500 to-green-400 rounded-full tech-glow-subtle opacity-60" />
+                <div className="absolute -top-3 -right-3 sm:-top-6 sm:-right-6 w-8 h-8 sm:w-12 sm:h-12 bg-gradient-to-br from-green-500 to-green-400 rounded-full tech-glow-subtle opacity-60" />
+                <div className="absolute -bottom-3 -left-3 sm:-bottom-6 sm:-left-6 w-6 h-6 sm:w-8 sm:h-8 bg-gradient-to-br from-green-500 to-green-400 rounded-full tech-glow-subtle opacity-60" />
               </div>
             </motion.div>
             </div>
@@ -209,17 +209,17 @@ export default function AboutPage() {
             style={{ marginBottom: '1rem' }} 
             className="flex flex-col items-center text-center mb-16"
           >
-            <h2 style={{ marginBottom: '1rem' }} className="text-4xl lg:text-5xl font-bold text-white mb-6">
+            <h2 style={{ marginBottom: '1rem' }} className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-6">
               {t('about.sarantis.title')}
             </h2>
-            <div style={{ marginBottom: '1rem' }}  className="w-24 h-1 bg-gradient-to-r from-green-500 to-green-400 mx-auto mb-8" />
-            <p style={{ marginBottom: '1rem' }}  className="text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
+            <div style={{ marginBottom: '1rem' }}  className="w-16 sm:w-24 h-1 bg-gradient-to-r from-green-500 to-green-400 mx-auto mb-8" />
+            <p style={{ marginBottom: '1rem' }}  className="text-base sm:text-lg md:text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed px-4">
               {t('about.sarantis.subtitle')}
             </p>
           </motion.div>
 
           <div className="flex justify-center w-full">
-            <div className="grid lg:grid-cols-3 gap-8 max-w-6xl w-full">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8 max-w-6xl w-full">
             {sarantisSkills.map((skill, index) => (
               <motion.div
                 key={index}
@@ -232,12 +232,13 @@ export default function AboutPage() {
                   background: 'linear-gradient(145deg, #0a0a0a, #1a1a1a)',
                   border: '1px solid rgba(76, 175, 80, 0.2)',
                   borderRadius: '1rem',
-                  padding: '32px 24px',
+                  padding: '24px 16px sm:32px sm:24px',
                   transition: 'all 0.3s cubic-bezier(0.4, 0, 0.2, 1)',
                   display: 'flex', 
                   flexDirection: 'column', 
                   alignItems: 'center',
-                  justifyContent: 'flex-start'
+                  justifyContent: 'flex-start',
+
                 }}
               >
                 <div 
@@ -250,19 +251,20 @@ export default function AboutPage() {
                     display: 'flex', 
                     alignItems: 'center', 
                     justifyContent: 'center',
-                    width: '80px',
-                    height: '80px',
-                    marginBottom: '24px',
+                    width: '64px',
+                    height: '64px',
+                    marginBottom: '20px',
                     flexShrink: 0,
-                    minWidth: '80px',
-                    minHeight: '80px',
-                    color: 'white'
+                    minWidth: '64px',
+                    minHeight: '64px',
+                    color: 'white',
+                                marginTop: '1rem'
                   }}
                 >
                   {skill.icon}
                 </div>
-                <h3 style={{ marginBottom: '1rem' }} className="text-2xl font-semibold text-white mb-4">{skill.title}</h3>
-                <p style={{ marginBottom: '1rem' }} className="text-gray-400 leading-relaxed">{skill.description}</p>
+                <h3 style={{ marginBottom: '1rem' }} className="text-lg sm:text-xl lg:text-2xl font-semibold text-white mb-4">{skill.title}</h3>
+                <p style={{ marginBottom: '1rem' }} className="text-sm sm:text-base text-gray-400 leading-relaxed">{skill.description}</p>
               </motion.div>
             ))}
             </div>
@@ -280,13 +282,13 @@ export default function AboutPage() {
             viewport={{ once: true }}
             className="flex flex-col items-center text-center"
           >
-            <h2 style={{ marginBottom: '1rem' }} className="text-4xl lg:text-5xl font-bold text-white mb-6">
+            <h2 style={{ marginBottom: '1rem' }} className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-6">
               {t('about.cta.title')}
             </h2>
-            <p style={{ marginBottom: '1rem' }} className="text-xl text-green-100 mb-8 max-w-2xl mx-auto">
+            <p style={{ marginBottom: '1rem' }} className="text-base sm:text-lg md:text-xl text-green-100 mb-8 max-w-2xl mx-auto px-4">
               {t('contact.subtitle')}
             </p>
-            <div style={{ marginBottom: '1rem' }} className="flex flex-col sm:flex-row gap-4 justify-center">
+            <div style={{ marginBottom: '1rem' }} className="flex flex-col sm:flex-row gap-4 justify-center items-center">
               <Link
                 href="/contact"
                 className="btn-primary bg-white text-green-900 hover:bg-gray-100"
