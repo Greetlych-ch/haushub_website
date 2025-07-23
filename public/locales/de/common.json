@@ -1,0 +1,454 @@
+{
+  "nav": {
+    "home": "Startseite",
+    "about": "Über uns",
+    "services": "Dienstleistungen",
+    "pricing": "Preise",
+    "projects": "Projekte", 
+    "contact": "Kontakt"
+  },
+  "common": {
+    "learnMore": "Mehr erfahren",
+    "getInTouch": "Kontakt aufnehmen",
+    "contactUs": "Kontaktieren Sie uns",
+    "readMore": "Weiterlesen",
+    "emergency": "Notfall",
+    "available247": "24/7 verfügbar"
+  },
+  "home": {
+    "hero": {
+      "title": "Haushub – Große Ideen, Beste Lösungen",
+      "subtitle": "Haushub bedient Zürich, Rapperswil und die umliegenden Regionen und ist Ihr zuverlässiger Partner für Handwerkerleistungen, technische Expertise und alltägliche Unterstützung.",
+      "description": "Ob es um das Montieren einer Lampe, den Aufbau komplizierter Möbel, die Verwaltung der Immobilienpflege oder die Erledigung von Besorgungen wie Lebensmitteleinkäufe oder Fahrzeugservice-Koordination geht – wir sind da, um zu helfen.",
+      "cta": "Heute beginnen",
+      "tagline": "Große Ideen,Beste Lösungen"
+    },
+    "whyChoose": {
+      "title": "Warum Haushub wählen?",
+      "subtitle": "Professionelle Dienstleistungen, die Ihr Leben einfacher machen",
+      "experienced": {
+        "title": "Erfahren & Zertifiziert",
+        "description": "Über 15 Jahre Erfahrung in Elektro- und Handwerkerleistungen, mit KNX Smart-Home-Zertifizierungen."
+      },
+      "flexible": {
+        "title": "Flexibel & Zuverlässig",
+        "description": "Maßgeschneiderte Lösungen, die zu Ihrem Zeitplan und Ihren Bedürfnissen passen."
+      },
+      "personal": {
+        "title": "Persönliche Betreuung",
+        "description": "Direkte Kommunikation mit Sarantis – keine Zwischenhändler."
+      },
+      "creative": {
+        "title": "Kreative Problemlösung",
+        "description": "Individuelle Lösungen für einzigartige Projekte."
+      },
+      "network": {
+        "title": "Breites Netzwerk",
+        "description": "Zugang zu vertrauenswürdigen Spezialisten, wenn Ihr Projekt mehr braucht."
+      }
+    },
+    "services": {
+      "title": "Unsere Dienstleistungen",
+      "subtitle": "Von Smart-Home-Automatisierung bis zur täglichen Unterstützung",
+      "electrical": {
+        "title": "Elektroinstallationen & Smart Home Lösungen",
+        "description": "Von präzisen Lampen- und Beleuchtungsinstallationen bis hin zu Steckdosen-Setups und Smart-Home-Integrationen (KNX-zertifiziert)."
+      },
+      "handyman": {
+        "title": "Handwerker-Expertise",
+        "description": "Montage aller Arten von Möbeln, Montage, Gartenarbeit, Klempnerarbeiten und Malerarbeiten."
+      },
+      "concierge": {
+        "title": "Concierge & Alltägliche Unterstützung",
+        "description": "Besorgungen wie Lebensmitteleinkäufe, Verwaltung von Fahrzeugservice-Terminen und alltägliche Aufgaben."
+      }
+    },
+    "emergency": {
+      "title": "Notfallservice verfügbar",
+      "description": "Brauchen Sie Hilfe außerhalb der normalen Zeiten? Wir sind für Sie da.",
+      "phone": "+41 788 066 762",
+      "hours": "Jederzeit für Notfälle verfügbar"
+    }
+  },
+  "about": {
+    "title": "Über Haushub",
+    "description": "Das Leben wird hektisch. Manchmal braucht man eine helfende Hand – oder steht vor einer Herausforderung, die man einfach nicht lösen kann. Noch mehr gibt es Zeiten, in denen man nicht sicher ist, wer der richtige Experte für die Arbeit ist. Hier kommt Haushub ins Spiel.",
+    "founded": "Gegründet von Sarantis Adamantidis, einem erfahrenen Elektriker und Systemintegrator, ist Haushub darauf ausgelegt, die Lücke zwischen alltäglichen Aufgaben und komplexen Herausforderungen zu schließen, die innovative Lösungen erfordern.",
+    "highlights": {
+      "experience": "15+ Jahre Erfahrung",
+      "certified": "KNX Smart Home Zertifiziert",
+      "multilingual": "Mehrsprachiger Support (EN, DE, GR)",
+      "emergency": "Notfallservice verfügbar",
+      "network": "Vertrauensvolles Netzwerk von Spezialisten"
+    },
+    "story": {
+      "title": "Warum Haushub existiert",
+      "description": "Gegründet von Sarantis Adamantidis, überbrückt Haushub die Lücke zwischen alltäglichen Aufgaben und komplexen technischen Herausforderungen. Wir glauben, dass jeder zuverlässigen, professionellen Service ohne Umstände verdient."
+    },
+    "skills": {
+      "experience": {
+        "title": "Erfahrung"
+      },
+      "certifications": {
+        "title": "Zertifizierungen"
+      },
+      "innovation": {
+        "title": "Innovation"
+      }
+    },
+    "founder": {
+      "name": "Sarantis Adamantidis",
+      "title": "Gründer & Leitender Techniker"
+    },
+    "exploreServices": "Unsere Dienstleistungen erkunden",
+    "cta": {
+      "title": "Bereit, mit uns zu arbeiten?"
+    },
+    "viewServices": "Dienstleistungen ansehen",
+    "sarantis": {
+      "title": "Über Sarantis",
+      "subtitle": "Sarantis Adamantidis – Elektriker, Systemintegrator und lösungsorientierter Profi.",
+      "experience": "Mit über 15 Jahren Erfahrung in Athen und Zürich kombiniert Sarantis technische Expertise in Elektroinstallationen, Smart-Home-Systemen und Facility Management mit einer Leidenschaft für Problemlösung.",
+      "certifications": "Seine Zertifizierungen, einschließlich KNX-Smart-Automation, werden durch eine Karriere unterstützt, die von Präzision, Zuverlässigkeit und einem Engagement für Kundenzufriedenheit geprägt ist.",
+      "creativity": "Sarantis' Kreativität wird nicht nur durch seine berufliche Laufbahn genährt, sondern auch durch einen Lebensstil voller Erkundung, vielfältiger Projekte und globaler Perspektiven."
+    }
+  },
+  "services": {
+    "title": "Unsere Dienstleistungen",
+    "subtitle": "Von technischen Installationen bis zur alltäglichen Unterstützung bietet Haushub umfassende Lösungen für alle Ihre Bedürfnisse.",
+    "getQuote": "Angebot erhalten",
+    "viewPricing": "Preise ansehen",
+    "electrical": {
+      "title": "Elektroinstallationen & Smart Home Lösungen",
+      "description": "Von präzisen Lampen- und Beleuchtungsinstallationen bis hin zu Steckdosen-Setups und Smart-Home-Integrationen (KNX-zertifiziert) sorgt Haushub dafür, dass Ihre elektrischen Systeme sowohl funktional als auch schön ausgeführt sind.",
+      "features": {
+        "lighting": "Lampen- und Beleuchtungsinstallationen",
+        "plugs": "Steckdosen-Setups und Elektroarbeiten",
+        "knx": "KNX Smart Home Integrationen",
+        "troubleshooting": "Elektrische Fehlersuche",
+        "automation": "Smart-Automatisierungssysteme"
+      }
+    },
+    "handyman": {
+      "title": "Handwerker-Expertise",
+      "description": "Montage aller Arten von Möbeln – auch der komplexen – Montage von Regalen, Fernsehern, Spiegeln, Gartenarbeit, Klempnerarbeiten und Streichen von Wänden, Zäunen oder anderen Oberflächen zur Auffrischung Ihres Raums.",
+      "features": {
+        "furniture": "Möbelmontage (alle Arten)",
+        "mounting": "Montage von Regalen und TVs",
+        "garden": "Gartenarbeit und Wartung",
+        "plumbing": "Klempnerarbeiten",
+        "painting": "Malen und Dekorieren"
+      }
+    },
+    "concierge": {
+      "title": "Concierge & Alltägliche Unterstützung",
+      "description": "Zeit ist kostbar. Haushub übernimmt Besorgungen wie das Abholen von Lebensmitteln oder der Reinigung, die Verwaltung Ihrer Fahrzeugservice-Termine und andere alltägliche Aufgaben, die Sie mit Vertrauen delegieren können.",
+      "features": {
+        "grocery": "Lebensmitteleinkauf",
+        "cleaning": "Reinigungsabholung",
+        "car": "Fahrzeugservice-Koordination",
+        "appointments": "Terminplanung",
+        "errands": "Persönliche Besorgungen"
+      }
+    },
+    "facility": {
+      "title": "Facility & Immobilienwartung",
+      "description": "Zuverlässige Betreuung für private Häuser und Geschäftsräume, um sicherzustellen, dass alles reibungslos läuft und gut gepflegt bleibt.",
+      "features": {
+        "maintenance": "Immobilienwartung",
+        "inspections": "Regelmäßige Inspektionen",
+        "preventive": "Vorbeugende Pflege",
+        "emergency": "Notfallreparaturen",
+        "venue": "Venue-Management"
+      }
+    },
+    "coordination": {
+      "title": "Projektkoordination",
+      "description": "Für größere Projekte, die mehrere Spezialisten erfordern, koordiniert Haushub vertrauenswürdige Techniker durch ein etabliertes Netzwerk und bietet nahtlose Überwachung und Qualitätsergebnisse.",
+      "features": {
+        "specialists": "Spezialistenkoordination",
+        "management": "Projektmanagement",
+        "quality": "Qualitätsüberwachung",
+        "timeline": "Zeitplanmanagement",
+        "multitrade": "Mehrgewerke-Projekte"
+      }
+    },
+    "custom": {
+      "title": "Kreative Maßlösungen",
+      "description": "Nicht jede Herausforderung passt in eine Schachtel. Haushub zeichnet sich durch das Schaffen einzigartiger Lösungen für spezielle Installationen, knifflige Räume oder Projekte aus, bei denen Standard-Optionen einfach nicht funktionieren.",
+      "features": {
+        "solutions": "Maßgeschneiderte Lösungen",
+        "problem": "Kreative Problemlösung",
+        "installations": "Spezialinstallationen",
+        "challenges": "Einzigartige Herausforderungen",
+        "approaches": "Innovative Ansätze"
+      }
+    },
+    "process": {
+      "title": "Wie wir arbeiten",
+      "subtitle": "Einfacher, unkomplizierter Prozess von der Beratung bis zur Fertigstellung",
+      "consultation": {
+        "title": "Beratung",
+        "description": "Wir besprechen Ihre Bedürfnisse und erstellen ein transparentes Angebot"
+      },
+      "planning": {
+        "title": "Planung",
+        "description": "Wir planen das Projekt und koordinieren alle notwendigen Spezialisten"
+      },
+      "execution": {
+        "title": "Ausführung",
+        "description": "Wir führen die Arbeit mit Qualität und Liebe zum Detail aus"
+      }
+    },
+    "cta": {
+      "title": "Bereit zu starten?",
+      "subtitle": "Kontaktieren Sie uns noch heute, um Ihr Projekt zu besprechen"
+    }
+  },
+  "pricing": {
+    "title": "Servicetarife",
+    "description": "Transparente Preise ohne versteckte Kosten. Alle Tarife verstehen sich exklusive Material und MwSt. (7.7%).",
+    "vatNote": "Alle Preise sind in Schweizer Franken (CHF) und inklusive MwSt.",
+    "note": "Alle Tarife verstehen sich exklusive Material und MwSt.",
+    "electrical": {
+      "title": "Elektro & Smart Home",
+      "description": "Professionelle Elektroarbeiten und KNX Smart Home Installationen",
+      "rate": "CHF 90–110 pro Stunde",
+      "includes": "Umfasst Beleuchtungsinstallationen, Steckdosen-Setups, Smart-Home-Integrationen und Fehlerbehebung.",
+      "services": {
+        "basic": "Grundlegende Elektroinstallationen",
+        "smartHome": "Smart Home Setup (KNX)",
+        "lighting": "Beleuchtungsdesign & Installation",
+        "emergency": "Elektrische Notfallreparatur"
+      }
+    },
+    "handyman": {
+      "title": "Handwerkerleistungen",
+      "description": "Montage, Befestigung und allgemeine Haushaltsaufgaben",
+      "rate": "CHF 70–90 pro Stunde",
+      "includes": "Umfasst Möbelmontage, Montage, Malerarbeiten, Gartenarbeit, Klempnerarbeiten und allgemeine Reparaturen.",
+      "services": {
+        "furniture": "Möbelmontage",
+        "mounting": "TV-Montage & Setup",
+        "painting": "Malen & Dekorieren",
+        "garden": "Gartenpflege"
+      }
+    },
+    "concierge": {
+      "title": "Concierge & Support",
+      "description": "Persönliche Assistenz und tägliches Aufgabenmanagement",
+      "rate": "CHF 60–80 pro Stunde",
+      "includes": "Umfasst Besorgungen wie Lebensmitteleinkäufe, Abholen der Reinigung und Fahrzeugservice-Koordination.",
+      "services": {
+        "shopping": "Persönliches Einkaufen",
+        "errands": "Besorgungskoordination",
+        "property": "Immobilienverwaltung",
+        "events": "Veranstaltungsassistenz"
+      }
+    },
+    "coordination": {
+      "title": "Projektkoordination",
+      "rate": "CHF 80–100 pro Stunde",
+      "includes": "Für die Koordination mehrerer Spezialisten durch Haushubs vertrauensvolles Netzwerk."
+    },
+    "included": {
+      "title": "Was ist enthalten",
+      "subtitle": "Unser transparentes Preismodell stellt sicher, dass Sie genau wissen, wofür Sie bezahlen"
+    },
+    "features": {
+      "noHiddenFees": "Keine versteckten Kosten - transparente Preisgestaltung",
+      "materialCosts": "Materialkosten werden separat berechnet",
+      "emergencySurcharge": "Notfall-Service-Zuschlag: +50%",
+      "minimumBooking": "Mindestbuchung: 1 Stunde",
+      "freeConsultation": "Kostenlose Erstberatung",
+      "qualityGuarantee": "Qualitätsgarantie auf alle Arbeiten"
+    },
+    "emergency": {
+      "title": "Notfallservice",
+      "description": "24/7 verfügbar für dringende Reparaturen und Situationen. Notfalltarife gelten außerhalb der normalen Geschäftszeiten.",
+      "surcharge": "Notfall-Zuschlag",
+      "rate": "+50% auf Standard-Stundensätze"
+    },
+    "cta": "Jedes Projekt ist einzigartig. Kontaktieren Sie uns für ein detailliertes, personalisiertes Angebot, das auf Ihre spezifischen Bedürfnisse und Zeitpläne zugeschnitten ist.",
+    "ctaSection": {
+      "title": "Holen Sie sich Ihr individuelles Angebot",
+      "callButton": "Anruf für Angebot"
+    },
+    "travel": {
+      "title": "Reise- & Transportkosten",
+      "zurichRapperswil": "Innerhalb Zürich & Rapperswil Region: Reisekosten sind in unseren Stundensätzen enthalten.",
+      "outside30km": "Außerhalb Zürich & Rapperswil (bis zu 30 km Radius): CHF 0.80 pro km (Hin- und Rückfahrt).",
+      "extended": "Erweiterte Reise (über 30 km): CHF 60 pro Stunde Reisezeit, plus CHF 0.80 pro km."
+    }
+  },
+  "projects": {
+    "title": "Unsere Arbeit",
+    "subtitle": "Sehen Sie Haushub in Aktion",
+    "description": "Von einfachen Installationen bis hin zu komplexen Smart-Home-Integrationen liefern wir Qualitätsergebnisse für jedes Projekt.",
+    "discussProject": "Ähnliches Projekt besprechen",
+    "smartHome": {
+      "title": "Smart Home Automation - Villa Zürich",
+      "category": "Elektro & Smart Home",
+      "location": "Zürich, Schweiz",
+      "description": "Komplette KNX Smart-Home-Installation inklusive Lichtsteuerung, Heizungsmanagement und Sicherheitsintegration für eine Luxusvilla.",
+      "features": {
+        "knx": "KNX Beleuchtungssystem",
+        "blinds": "Automatisierte Jalousien",
+        "security": "Sicherheitsintegration",
+        "monitoring": "Energieüberwachung"
+      }
+    },
+    "office": {
+      "title": "Büroraum-Renovierung",
+      "category": "Handwerk & Montage",
+      "location": "Rapperswil, Schweiz",
+      "description": "Komplette Bürorenovierung inklusive Möbelmontage, Elektroarbeiten und Innendesign-Koordination für ein Tech-Startup.",
+      "features": {
+        "furniture": "Möbelmontage",
+        "electrical": "Elektroinstallationen",
+        "interior": "Innenausstattung-Koordination",
+        "management": "Projektmanagement"
+      }
+    },
+    "testimonials": {
+      "title": "Was Kunden sagen",
+      "subtitle": "Echtes Feedback von unseren zufriedenen Kunden",
+      "client1": {
+        "name": "Marcus Weber",
+        "project": "Smart Home Villa",
+        "quote": "Sarantis hat unser Haus nahtlos in ein Smart Home verwandelt. Seine Expertise mit KNX-Systemen ist außergewöhnlich."
+      },
+      "client2": {
+        "name": "Tech Startup Team",
+        "project": "Bürorenovierung",
+        "quote": "Professionell, zuverlässig und effizient. Unser Büro-Setup wurde pünktlich und im Budget fertiggestellt."
+      },
+      "client3": {
+        "name": "Immobilienverwalter",
+        "project": "Apartment-Komplex",
+        "quote": "Haushub für die Immobilienwartung zu haben war unbezahlbar. Schnelle Reaktionszeiten und Qualitätsarbeit."
+      }
+    },
+    "cta": {
+      "title": "Starten Sie Ihr Projekt",
+      "subtitle": "Bereit, Ihren Raum zu verwandeln? Lassen Sie uns Ihre Vision besprechen und gemeinsam etwas Großartiges schaffen.",
+      "viewServices": "Dienstleistungen ansehen"
+    }
+  },
+  "contact": {
+    "title": "Kontakt aufnehmen",
+    "subtitle": "Jedes Projekt beginnt mit einem Gespräch. Teilen Sie uns mit, was Sie brauchen – ob es sich um eine schnelle Reparatur, eine kreative Herausforderung oder laufende Unterstützung handelt. Haushub ist da, um zu helfen.",
+    "languages": "Sarantis spricht Englisch, Deutsch und Griechisch und wird Ihnen gerne persönlich helfen.",
+    "response": "Wenn er nicht sofort antwortet, ist er vielleicht mitten in einem Projekt (oder hängt an einer Leiter!). Bitte senden Sie eine SMS oder erreichen Sie ihn über WhatsApp – er wird so schnell wie möglich antworten.",
+    "phone": "+41 788 066 762",
+    "email": "info@haushub.ch",
+    "methods": {
+      "title": "Kontakt aufnehmen",
+      "subtitle": "Wählen Sie Ihre bevorzugte Kontaktmethode",
+      "phone": {
+        "title": "Telefon",
+        "description": "Rufen Sie uns direkt an für sofortige Hilfe",
+        "available": "24/7 verfügbar für Notfälle"
+      },
+      "whatsapp": {
+        "title": "WhatsApp",
+        "description": "Schnelle Nachrichten für Fragen und Angebote",
+        "value": "Nachricht senden",
+        "available": "Antwortet normalerweise innerhalb von 30 Minuten"
+      },
+      "email": {
+        "title": "E-Mail",
+        "description": "Detaillierte Projektinformationen senden",
+        "available": "Antwort innerhalb von 24 Stunden"
+      }
+    },
+    "form": {
+      "title": "Senden Sie uns eine Nachricht",
+      "subtitle": "Erzählen Sie uns von Ihrem Projekt und wir melden uns mit einer maßgeschneiderten Lösung bei Ihnen.",
+      "fields": {
+        "name": {
+          "label": "Vollständiger Name *",
+          "placeholder": "Ihr vollständiger Name"
+        },
+        "email": {
+          "label": "E-Mail-Adresse *",
+          "placeholder": "ihre@email.com"
+        },
+        "phone": {
+          "label": "Telefonnummer",
+          "placeholder": "+41 XX XXX XX XX"
+        },
+        "service": {
+          "label": "Benötigter Service",
+          "placeholder": "Service auswählen",
+          "options": {
+            "electrical": "Elektro & Smart Home",
+            "handyman": "Handwerkerleistungen",
+            "concierge": "Concierge-Support",
+            "facility": "Facility Management",
+            "other": "Andere"
+          }
+        },
+        "message": {
+          "label": "Projektbeschreibung *",
+          "placeholder": "Erzählen Sie uns von Ihrem Projekt, Zeitplan und spezifischen Anforderungen..."
+        }
+      },
+      "submit": "Nachricht senden"
+    },
+    "office": {
+      "title": "Büro-Informationen",
+      "serviceArea": {
+        "title": "Servicebereich"
+      },
+      "businessHours": {
+        "title": "Geschäftszeiten"
+      },
+      "emergency": {
+        "title": "Notfallservice"
+      }
+    },
+    "languages": {
+      "title": "Gesprochene Sprachen",
+      "english": "English",
+      "german": "Deutsch",
+      "greek": "Ελληνικά"
+    },
+    "emergency": {
+      "title": "Notfallservice",
+      "description": "Brauchen Sie sofortige Hilfe? Unser Notfallservice ist 24/7 verfügbar.",
+      "button": "Notfall-Hotline anrufen"
+    },
+    "hours": {
+      "title": "Betriebszeiten",
+      "weekdays": "Montag – Freitag: 8:00 – 18:00",
+      "emergencies": "Notfälle: Jederzeit",
+      "weekends": "Wochenenden: Auf Anfrage verfügbar"
+    },
+    "location": {
+      "title": "Finden Sie uns",
+      "description": "Mit Sitz in Zürich und Rapperswil bedient Haushub Kunden in der gesamten Region."
+    }
+  },
+  "footer": {
+    "quickLinks": "Schnellzugriff",
+    "contactInfo": "Kontaktdaten",
+    "operatingHours": "Betriebszeiten"
+  },
+  "testimonials": {
+    "title": "Was unsere Kunden sagen",
+    "testimonial1": "Sarantis hat unser neues Beleuchtungssystem fehlerfrei installiert. Er fand Lösungen, wo andere aufgaben!",
+    "client1": "Martina, Zürich"
+  },
+  "faq": {
+    "title": "Häufig gestellte Fragen",
+    "q1": "Wie buche ich einen Service?",
+    "a1": "Rufen Sie einfach an oder senden Sie uns eine WhatsApp an +41 788 066 762 oder senden Sie eine E-Mail an info@haushub.ch. Wir besprechen Ihre Bedürfnisse und vereinbaren einen passenden Termin.",
+    "q2": "Welche Gebiete decken Sie ab?",
+    "a2": "Wir bedienen Zürich, Rapperswil und die umliegenden Regionen. Für Standorte außerhalb dieses Gebiets können zusätzliche Reisekosten anfallen.",
+    "q3": "Sind Materialien im Stundensatz enthalten?",
+    "a3": "Nein, Materialien und MwSt. werden separat von unseren Stundensätzen berechnet. Wir erstellen ein transparentes Angebot mit allen Kosten.",
+    "q4": "Was passiert, wenn ich einen Spezialisten für ein größeres Projekt brauche?",
+    "a4": "Haushub koordiniert vertrauenswürdige Spezialisten durch unser etabliertes Netzwerk und bietet nahtlose Überwachung und Qualitätsergebnisse für größere Projekte."
+  }
+} 
