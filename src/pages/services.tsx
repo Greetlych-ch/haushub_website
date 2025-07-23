@@ -1,6 +1,7 @@
 import { GetStaticProps } from 'next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import { useTranslation } from 'next-i18next';
+import Link from 'next/link';
 import Layout from '@/components/layout/Layout';
 import { motion } from 'framer-motion';
 import { Zap, Home, Users, Building, Cog, Lightbulb, ArrowRight, CheckCircle } from 'lucide-react';
@@ -197,13 +198,13 @@ export default function ServicesPage() {
                     ))}
                   </div>
 
-                  <a
+                  <Link
                     href="/contact"
                     className="inline-flex items-center text-green-400 hover:text-green-300 font-medium group/link"
                   >
                     {t('services.getQuote')}
                     <ArrowRight className="w-4 h-4 ml-2 group-hover/link:translate-x-1 transition-transform" />
-                  </a>
+                  </Link>
                 </motion.div>
               ))}
             </div>
@@ -293,19 +294,19 @@ export default function ServicesPage() {
               {t('services.cta.subtitle')}
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a
+              <Link
                 href="/contact"
                 className="btn-primary bg-white text-green-900 hover:bg-gray-100"
               >
                 {t('common.getInTouch')}
                 <ArrowRight className="w-5 h-5 ml-2" />
-              </a>
-              <a
+              </Link>
+              <Link
                 href="/pricing"
                 className="btn-secondary border-white text-white hover:bg-white hover:text-green-900"
               >
                 {t('services.viewPricing')}
-              </a>
+              </Link>
             </div>
           </motion.div>
         </div>

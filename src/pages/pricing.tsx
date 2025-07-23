@@ -1,6 +1,7 @@
 import { GetStaticProps } from 'next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import { useTranslation } from 'next-i18next';
+import Link from 'next/link';
 import Layout from '@/components/layout/Layout';
 import { motion } from 'framer-motion';
 import { CheckCircle, Phone, ArrowRight, Clock, Euro, Star } from 'lucide-react';
@@ -269,13 +270,13 @@ export default function PricingPage() {
                 <Phone className="w-5 h-5" />
                 {t('pricing.ctaSection.callButton')}
               </a>
-              <a
+              <Link
                 href="/contact"
                 className="btn-secondary border-white text-white hover:bg-white hover:text-green-900"
               >
                 {t('common.getInTouch')}
                 <ArrowRight className="w-5 h-5 ml-2" />
-              </a>
+              </Link>
             </div>
           </motion.div>
         </div>

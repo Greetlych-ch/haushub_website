@@ -1,6 +1,6 @@
 import { useTranslation } from 'next-i18next';
 import Link from 'next/link';
-import { Phone, Mail, Clock, MapPin, Zap, ExternalLink } from 'lucide-react';
+import { Phone, Mail, Clock, MapPin } from 'lucide-react';
 
 export default function Footer() {
   const { t } = useTranslation('common');

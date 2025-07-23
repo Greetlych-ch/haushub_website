@@ -1,6 +1,7 @@
 import { GetStaticProps } from 'next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import { useTranslation } from 'next-i18next';
+import Link from 'next/link';
 import Layout from '@/components/layout/Layout';
 import { motion } from 'framer-motion';
 import { Award, CheckCircle, Users, Zap, Star, ArrowRight } from 'lucide-react';
@@ -152,14 +153,14 @@ export default function AboutPage() {
                 ))}
               </div>
               
-              <a
+              <Link
                 href="/services"
                 style={{ marginTop: '1rem' }}
                 className="btn-primary inline-flex items-center"
               >
                 {t('about.exploreServices')}
                 <ArrowRight className="w-5 h-5 ml-2" />
-              </a>
+              </Link>
             </motion.div>
 
             {/* Visual Element */}
@@ -286,18 +287,18 @@ export default function AboutPage() {
               {t('contact.subtitle')}
             </p>
             <div style={{ marginBottom: '1rem' }} className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a
+              <Link
                 href="/contact"
                 className="btn-primary bg-white text-green-900 hover:bg-gray-100"
               >
                 {t('common.getInTouch')}
-              </a>
-              <a
+              </Link>
+              <Link
                 href="/services"
                 className="btn-secondary border-white text-white hover:bg-white hover:text-green-900"
               >
                 {t('about.viewServices')}
-              </a>
+              </Link>
             </div>
           </motion.div>
         </div>

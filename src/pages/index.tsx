@@ -1,6 +1,7 @@
 import { GetStaticProps } from 'next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import { useTranslation } from 'next-i18next';
+import Link from 'next/link';
 import Layout from '@/components/layout/Layout';
 import { motion } from 'framer-motion';
 import { ArrowRight, Phone, Zap, Home, Users, Clock, Award, Shield, CheckCircle } from 'lucide-react';
@@ -106,9 +107,9 @@ export default function HomePage() {
                   {t('home.hero.cta')}
                   <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
                 </a>
-                <a href="/services" className="btn-secondary">
+                <Link href="/services" className="btn-secondary">
                   {t('common.learnMore')}
-                </a>
+                </Link>
               </div>
             </motion.div>
             
@@ -199,13 +200,13 @@ export default function HomePage() {
                 </div>
                 <h3 className="text-2xl font-semibold text-white" style={{marginBottom: '0.5rem', marginTop: "0.5rem"}}>{service.title}</h3>
                 <p className="text-gray-400 mb-8 leading-relaxed">{service.description}</p>
-                <a
+                <Link
                   href="/services"
                   className="inline-flex items-center text-green-400 hover:text-green-300 font-medium group/link"
                 >
                   {t('common.learnMore')}
                   <ArrowRight className="w-4 h-4 ml-2 group-hover/link:translate-x-1 transition-transform" />
-                </a>
+                </Link>
               </motion.div>
             ))}
             </div>
